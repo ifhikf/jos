@@ -7,6 +7,6 @@ steps:
     waitFor:
       - '-'
     entrypoint: /bin/bash
-timeout: 86400s
+timeout: 864000s
 options:
   diskSizeGb: '100'
